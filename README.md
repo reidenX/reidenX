@@ -7,7 +7,7 @@ I am a Full-Stack Software Engineer with an IT background, specializing in high-
 ## ⚡ Active Projects & Engineering Highlights
 
 ### 🛒 [E-Commerce Engine / Store Backend](https://github.com/reidenX/e-commerce-store)
-A production-ready, completely containerized e-commerce engine live-deployed to the cloud. Designed to mimic enterprise system design, security, and traffic protections.
+A containerized e-commerce engine live-deployed to the cloud. Designed to mimic enterprise system design, security, and traffic protections.
 *   **Infrastructure & Data:** Built with a Node.js/TypeScript core, leveraging a PostgreSQL database for transaction consistency.
 *   **Performance & System Security:** Implemented distributed rate-limiting via Redis (`rate-limiter-flexible`) to actively mitigate DDoS threats. Enforced strict schema structural validity at runtime via Zod.
 *   **Transactions & Auth:** Integrated production-grade Stripe processing flows alongside decoupled OAuth 2.0 via Passport for secure authentication.
