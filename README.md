@@ -8,13 +8,16 @@ I am a Full-Stack Software Engineer with an IT background, specializing in high-
 
 ### 🛒 [E-Commerce Engine / Store Backend](https://github.com/reidenX/e-commerce-store)
 A containerized e-commerce engine live-deployed to the cloud. Designed to mimic enterprise system design, security, and traffic protections.
-*   **Infrastructure & Data:** Built with a Node.js/TypeScript core, leveraging a PostgreSQL database for transaction consistency.
+*   **Infrastructure & Data:** Built with a Node.js core, leveraging a PostgreSQL database for transaction consistency.
 *   **Performance & System Security:** Implemented distributed rate-limiting via Redis (`rate-limiter-flexible`) to actively mitigate DDoS threats. Enforced strict schema structural validity at runtime via Zod.
 *   **Transactions & Auth:** Integrated production-grade Stripe processing flows alongside decoupled OAuth 2.0 via Passport for secure authentication.
 *   **DevOps & DX:** Fully containerized with Docker for seamless environment parity, tested with a robust Jest suite, and packaged with pre-configured Insomnia environment endpoints for immediate API tracking.
 
 ### 💬 [X-Clone Social Media Web App](https://github.com/reidenX/x-clone)
 A full-stack, responsive real-time web application featuring a highly optimized live database messaging system and component scaling.
+*   **Real-Time Chat:** utilized Socket.IO for instant chat updates
+*   **Optimic UI Updates:** Improves perceived performance by temporarily updating the state giving instant user feedback
+*   **Graceful Shutdown:** Listens for OS signals (SIGINT and SIGTERM) and handles unfinished processes to prevent data loss
 
 ---
 
